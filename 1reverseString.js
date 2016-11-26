@@ -1,3 +1,8 @@
+/*
+Challenge:Reverse the provided string.
+*/
+
+
 function reverseString(str) {
   //putting en empty string inside the split function will
   //convert to an array of characters
