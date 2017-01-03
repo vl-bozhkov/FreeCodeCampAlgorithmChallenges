@@ -5,12 +5,9 @@ and returns them as a two-dimensional array.
 */
 
 function chunkArrayInGroups(arr, size) {
-  // Break it up.
+  //increment i by the provided size
   for(var i = 0, newArr = []; i < arr.length; i+=size) {
-    newArr.push(arr.slice(i, size));
-    console.log(i,'iteration i=',i);
-    console.log('size=',size);
-    size+=i;
+    newArr.push(arr.slice(i, size + i));
   }
   return newArr;
 }
